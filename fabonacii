@@ -1,0 +1,9 @@
+first=int(input("enter first no: "))
+second=int(input("enter second no: "))
+n=int(input("inter n: "))
+temp=0
+for i in range(n-2):
+  temp=first+second
+  first=second
+  second=temp
+print(second)
